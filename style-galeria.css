@@ -125,16 +125,17 @@ section.site .site-box{
 
     /* ESTILO SLIDE */
 
-    /* .swiper{
-        height: 800px;
-    } */
+.swiper{
+        height: 444px;
+}
+
 
     .swiper-slide{
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 30px;
+        padding: 80px;
     }
 
     :root {
