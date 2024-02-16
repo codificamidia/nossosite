@@ -142,8 +142,8 @@ section.site .site-box{
     
 
     .img-mobile img{
-        width: 100%;
-        height: 450px; 
+        width: auto px;
+        height: 418px;
         border-radius: 20px;
     }
 
