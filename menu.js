@@ -24,3 +24,18 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+//Configuração slide
+
+let swiper = new Swiper(" .swiper",{
+    cssMode: true,
+    loop: true,
+    navigation: {
+        netxEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    keyboard: true,
+});

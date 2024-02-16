@@ -1,0 +1,105 @@
+/* ESTILO TOPO GALERIA */
+
+section.topo-galeria{
+    margin: -30px 0; 
+    background-color: #ee6ea8;
+    height: 110px;
+}
+
+.topo-galeria .txt-topo-galeria h2{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.topo-galeria .txt-topo-galeria p{
+    text-align: center;
+}
+
+
+/* ESTILO GALERIA */
+section.galeria{
+    padding: 100px 4%;
+}
+
+
+section.galeria .flex{
+    gap: 20px;
+    justify-content: center;
+}
+
+.linha{
+    border-bottom: 2px solid #ee6ea8;
+    margin-bottom: 20px;
+}
+
+
+.galeria .moldura-story-linha1, .moldura-story-linha2{
+    border: 1px solid #ccc;
+    width: 180px; 
+    transition: .2s;
+    border-radius: 20px;
+    height: 367px;
+}
+
+.galeria .moldura-story-linha2{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.galeria .moldura-story-linha1:hover, .moldura-story-linha2:hover, .moldura-carrosseis-linha1:hover, .moldura-carrosseis-linha2:hover, .moldura-carrosseis-linha3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #f16aa768;
+}
+
+.moldura-carrosseis-linha1, .moldura-carrosseis-linha2, .moldura-carrosseis-linha3{
+    border: 1px solid #ccc;
+    width: 1280px; 
+    transition: .2s;
+    border-radius: 20px;
+    height: 322px;
+}
+
+.img-galeria img{
+    width: 100%;
+    height: auto; 
+    border-radius: 20px;
+}
+
+.moldura-carrosseis-linha1, .moldura-carrosseis-linha2{
+    margin: 30px 0;
+}
+
+@media screen and (min-width: 1200px){
+    .galeria-mobile {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    section.galeria-mobile{
+        padding: 100px 4%;
+    }
+    .galeria {
+        display: none;
+    }
+
+    .swiper{
+        height: 500px;
+    }
+
+    .swiper-slide{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-mobile img{
+        width: 250px;
+        height: 450px; 
+        border-radius: 20px;
+    }
+
+}
