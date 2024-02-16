@@ -1,3 +1,30 @@
+/* GERAIS */
+
+.linha{
+    border-bottom: 2px solid #ee6ea8;
+    margin-bottom: 20px;
+}
+
+.galeria .moldura-story-linha1:hover, .moldura-story-linha2:hover, .moldura-carrosseis-linha1:hover, .moldura-carrosseis-linha2:hover, .moldura-carrosseis-linha3:hover, .galeria-logo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #f16aa768;
+}
+
+.img-galeria img{
+    width: 100%;
+    height: auto; 
+    border-radius: 20px;
+}
+
+.img-galeria:target{
+    position: fixed;
+    width: 100%;
+    top: 15px;
+    left: 25%;
+    
+}
+
+
 /* ESTILO TOPO GALERIA */
 
 section.topo-galeria{
@@ -21,20 +48,23 @@ section.galeria{
     padding: 100px 4%;
 }
 
-
 section.galeria .flex{
     gap: 10px;
     justify-content: center;
 }
 
-.linha{
-    border-bottom: 2px solid #ee6ea8;
-    margin-bottom: 20px;
+/* ESTILO LOGO */
+.galeria .galeria-logo{
+    width: 250px; 
+    transition: .2s;
+    border-radius: 20px;
+    height: 250px;
 }
 
 
+
+/* ESTILO MOLDURA STORY */
 .galeria .moldura-story-linha1, .moldura-story-linha2{
-    border: 1px solid #ccc;
     width: 180px; 
     transition: .2s;
     border-radius: 20px;
@@ -46,28 +76,18 @@ section.galeria .flex{
     margin-bottom: 80px;
 }
 
-.galeria .moldura-story-linha1:hover, .moldura-story-linha2:hover, .moldura-carrosseis-linha1:hover, .moldura-carrosseis-linha2:hover, .moldura-carrosseis-linha3:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 20px #f16aa768;
-}
-
+/* ESTILO CARROSSEIS: */
 .moldura-carrosseis-linha1, .moldura-carrosseis-linha2, .moldura-carrosseis-linha3{
-    border: 1px solid #ccc;
     width: 1280px; 
     transition: .2s;
     border-radius: 20px;
     height: 322px;
 }
 
-.img-galeria img{
-    width: 100%;
-    height: auto; 
-    border-radius: 20px;
-}
-
 .moldura-carrosseis-linha1, .moldura-carrosseis-linha2{
     margin: 30px 0;
 }
+
 
 @media screen and (min-width: 1200px){
     .galeria-mobile {
@@ -96,6 +116,10 @@ section.galeria .flex{
         justify-content: center;
     }
 
+    :root {
+        --swiper-theme-color: #ee6ea8 !important;
+    }
+    
 
     .img-mobile img{
         width: 100%;
