@@ -23,7 +23,7 @@ section.galeria{
 
 
 section.galeria .flex{
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -38,11 +38,11 @@ section.galeria .flex{
     width: 180px; 
     transition: .2s;
     border-radius: 20px;
-    height: 367px;
+    height: 318px;
 }
 
 .galeria .moldura-story-linha2{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 80px;
 }
 
