@@ -2,13 +2,14 @@
 
 .linha{
     border-bottom: 2px solid #ee6ea8;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.galeria .moldura-story-linha1:hover, .moldura-story-linha2:hover, .moldura-carrosseis-linha1:hover, .moldura-carrosseis-linha2:hover, .moldura-carrosseis-linha3:hover, .galeria-logo:hover{
+.posts-story-box-1:hover, .posts-story-box-2:hover, .post-carrosseis-box-1:hover, .post-carrosseis-box-2:hover, .post-carrosseis-box-3:hover, .logo-box:hover{
     transform: scale(1.05);
     box-shadow: 0 0 20px #f16aa768;
 }
+
 
 .img-galeria img{
     width: 100%;
@@ -20,17 +21,18 @@
     position: fixed;
     width: 100%;
     top: 15px;
-    left: 25%;
-    
+    left: 25%;   
 }
 
 
 /* ESTILO TOPO GALERIA */
 
+
 section.topo-galeria{
     margin: -30px 0; 
     background-color: #ee6ea8;
     height: 110px;
+
 }
 
 .topo-galeria .txt-topo-galeria h2{
@@ -43,51 +45,66 @@ section.topo-galeria{
 }
 
 
-/* ESTILO GALERIA */
-section.galeria{
-    padding: 100px 4%;
+/* ESTILO LOGO GALERIA */
+section.logo-galeria{
+    padding: 80px 4%;
 }
 
-section.galeria .flex{
-    gap: 10px;
+section.logo-galeria .flex{
+    gap: 200px;
     justify-content: center;
 }
 
-/* ESTILO LOGO */
-.galeria .galeria-logo{
+section.logo-galeria .logo-box{
     width: 250px; 
     transition: .2s;
     border-radius: 20px;
-    height: 250px;
+    height: 280px;
+    padding-top: 20px;
 }
 
 
 
-/* ESTILO MOLDURA STORY */
-.galeria .moldura-story-linha1, .moldura-story-linha2{
+/* ESTILO POSTS STORY */
+section.posts-story-box-1{
+    padding: 100px 4%;
+}
+
+section.posts-story .flex{
+    gap: 20px;
+    justify-content: center;
+}
+
+.posts-story .posts-story-box-1, .posts-story-box-2{
     width: 180px; 
     transition: .2s;
     border-radius: 20px;
     height: 318px;
 }
 
-.galeria .moldura-story-linha2{
+.posts-story .posts-story-box-2{
     margin-top: 20px;
-    margin-bottom: 80px;
 }
 
-/* ESTILO CARROSSEIS: */
-.moldura-carrosseis-linha1, .moldura-carrosseis-linha2, .moldura-carrosseis-linha3{
-    width: 1280px; 
+/* ESTILO POSTS CARROSSEIS: */
+section.post-carrosseis{
+    padding: 70px 0;
+}
+.post-carrosseis-box-1, .post-carrosseis-box-2, .post-carrosseis-box-3{
+    width: 1250px; 
     transition: .2s;
     border-radius: 20px;
-    height: 322px;
+    height: 310px;
 }
 
-.moldura-carrosseis-linha1, .moldura-carrosseis-linha2{
+.post-carrosseis-box-1, .post-carrosseis-box-2, .post-carrosseis-box-3{
     margin: 30px 0;
 }
 
+/* ESTILO SITE */
+section.site .site-box{
+    padding-bottom: 80px;
+}
 
 @media screen and (min-width: 1200px){
     .galeria-mobile {
@@ -101,9 +118,12 @@ section.galeria .flex{
     section.galeria-mobile{
         padding: 100px 4%;
     }
-    .galeria {
+
+    .galeria-desktop {
         display: none;
     }
+
+    /* ESTILO SLIDE */
 
     .swiper{
         height: 500px;
@@ -126,5 +146,12 @@ section.galeria .flex{
         height: 450px; 
         border-radius: 20px;
     }
+
+    /* ESTILO CARROCEIS */
+    section.post-carrosseis-mobile{
+        padding: 50px 0;
+    }
+
+
 
 }
