@@ -195,12 +195,12 @@ section.especialidades{
 }
 
 section.especialidades .flex{
-    gap: 80px;
+    gap: 1px;
 }
 
 .especialidades .especialidades-box{
     padding: 20px;
-    margin-top: 60px;
+    margin-top: 30px;
     border-radius: 20px;
     transition: .2s;
 }
