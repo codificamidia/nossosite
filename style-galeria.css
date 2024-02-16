@@ -125,26 +125,25 @@ section.site .site-box{
 
     /* ESTILO SLIDE */
 
-    .swiper{
-        height: 500px;
-    }
+    /* .swiper{
+        height: 800px;
+    } */
 
     .swiper-slide{
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 30px;
     }
-
 
     :root {
         --swiper-theme-color: #ee6ea8 !important;
     }
     
-
     .img-mobile img{
-        width: auto px;
-        height: 418px;
+        width: 100%;
+        height: auto;
         border-radius: 20px;
     }
 
