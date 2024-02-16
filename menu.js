@@ -30,7 +30,7 @@ let swiper = new Swiper(" .swiper",{
     cssMode: true,
     loop: true,
     navigation: {
-        netxEl: ".swiper-button-next",
+        nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
 
