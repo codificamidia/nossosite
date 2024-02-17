@@ -195,7 +195,7 @@ section.especialidades{
 }
 
 section.especialidades .flex{
-    gap: 1px;
+    gap: 90px;
 }
 
 .especialidades .especialidades-box{
@@ -438,6 +438,10 @@ footer .line-footer p a{
 
     section.especialidades{
         padding: 80px 8%;
+    }
+
+    section.especialidades .flex{
+        gap: 1px;
     }
 
     h2.titulo{
