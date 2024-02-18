@@ -148,12 +148,14 @@
     <section class="formulario" id="formulario">
         <div class="interface">
             <h2 class="titulo">FALE <span>COM A GENTE.</span></h2>
+            <form action="https://formsubmit.co/codificamidia@gmail.com" method="POST">
 
-            <form action="">
-                <input type="text" name="" id="" placeholder="Seu nome completo:" required>
-                <input type="text" placeholder="Seu e-mail:" required>
+                <input type="text" name="name" placeholder="Seu nome completo:" required>
+                <input type="email" name="email" placeholder="Seu e-mail:" required>
                 <input type="text" placeholder="Seu celular:">
-                <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                <textarea name="message" placeholder="Sua mensagem" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
                 <div class="btn-enviar"><input type="submit" value="Enviar"></div>
             </form>
 
@@ -177,7 +179,7 @@
 
             <div class="line-footer borda">
                 <p><i class="bi bi-envelope-fill"></i><a href="mailto:codificamidia@gmail.com"> codificamidia@gmail.com</a></p>
-                <p>versão 2024-17-02-06</p>
+                <p>versão 2024-17-02-07</p>
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>
