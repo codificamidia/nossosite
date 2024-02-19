@@ -2,7 +2,7 @@
 
 .linha{
     border-bottom: 2px solid #ee6ea8;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .posts-story-box-1:hover, .posts-story-box-2:hover, .post-carrosseis-box-1:hover, .post-carrosseis-box-2:hover, .post-carrosseis-box-3:hover, .logo-box:hover, .post-estatico-feed-box:hover{
@@ -65,16 +65,16 @@ section.logo-galeria .logo-box{
 
 
 /* ESTILO POSTS STORY */
-section.posts-story-box-1{
-    padding: 100px 4%;
+section.posts-story{
+    padding: 50px 0;
 }
 
 .posts-story .line-galeria h2{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 section.posts-story .flex{
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
 }
 
@@ -86,27 +86,31 @@ section.posts-story .flex{
 }
 
 .posts-story .posts-story-box-2{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 /* ESTILO POSTS REELS */
+section.post-reels{
+    padding: 80px 0;
+}
+
 section.post-reels .flex{
     gap: 20px;
     justify-content: center;
 }
 
-.post-reels-box{
-    border-radius: 20px;
+section.post-reels .linha{
+    margin-bottom: 0px;
 }
 
 .post-reels-box iframe{
-width: 300px; 
-height: 618px;
+    width: 300px; 
+    height: 618px;
 }
 
 /* ESTILO POSTS CARROSSEIS: */
 section.post-carrosseis{
-    padding: 50px 0;
+    padding: 10px 0;
 }
 .post-carrosseis-box-1, .post-carrosseis-box-2, .post-carrosseis-box-3{
     width: 1250px; 
