@@ -89,9 +89,24 @@ section.posts-story .flex{
     margin-top: 20px;
 }
 
+/* ESTILO POSTS REELS */
+section.post-reels .flex{
+    gap: 20px;
+    justify-content: center;
+}
+
+.post-reels-box{
+    border-radius: 20px;
+}
+
+.post-reels-box iframe{
+width: 200px; 
+height: 418px;
+}
+
 /* ESTILO POSTS CARROSSEIS: */
 section.post-carrosseis{
-    padding: 70px 0;
+    padding: 50px 0;
 }
 .post-carrosseis-box-1, .post-carrosseis-box-2, .post-carrosseis-box-3{
     width: 1250px; 
