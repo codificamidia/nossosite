@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #737373;
+    height: 100vh;
+    justify-content: center;
+}
+
+.txt-animado h1{
+    font-size: 60px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F16AA7;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.txt-animado p{
+    text-align: center;
+    font-size: 40px;
+}
+
+.logo-obrigado img{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.rede-sociais-obrigado{
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F16AA7;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.rede-sociais-obrigado h1{
+    font-size: 20px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.btn-social-obrigado{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn-social-obrigado i{
+    font-size: 50px;
+}
+
+.btn-social-obrigado button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: #737373;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+    color: rgb(0, 0, 0);
+}
+
+#elementEl::after{
+    content: '|';
+    margin-left: 1px;
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .rede-sociais-obrigado{
+        margin-top: 100px;
+        width: 300px;
+        height: 190px;
+    }
+
+    .txt-animado h1{
+        font-size: 50px;
+    }
+
+    .txt-animado p{
+        font-size: 30px;
+    }
+
+    .txt-animado h1{
+        margin-top: 70px;
+    }
+
+}
