@@ -39,6 +39,3 @@ let swiper = new Swiper(" .swiper",{
     },
     keyboard: true,
 });
-
-
-

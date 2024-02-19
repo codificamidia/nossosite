@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado!</title>
+    <!--bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--bootstrap icons-->
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-obrigado.css">
+    <script src="menu.js" defer></script>
+    <link rel="shortcut icon" href="images/code.svg" type="image/x-icon">
+</head>
+<body>
+    
+<header>
+    <div class="logo-obrigado">
+        <picture>
+            <source media="(max-width: 1200px)" srcset="images/imagemlogo.svg" type="image/png">
+            <img src="images/imagemlogoM.svg" alt="">
+        </picture>
+    </div> <!--logo-obrigado-->
+</header>
+
+<main>
+    <section class="topo-pagina-obrigado">
+        <div class="txt-topo-pagina-obrigado">
+            <h1>Obrigado</h1>
+            <p id="elementEl">Por falar com a gente!</p>
+        </div><!--txt-topo-pagina-obrigado-->
+
+        <script>
+            'use strict';
+            function typeWriter(el){
+                const textArray = el.innerHTML.split('');
+                el.innerHTML = '';
+        
+                textArray.forEach((letter, i) => {
+                    setTimeout(() => (el.innerHTML += letter), 95 * i);
+                });
+            }
+            typeWriter(elementEl);
+        </script>
+    </section><!--topo-pagina-obrigado-->
+
+    <section class="redes-sociais-pagina-obrigado">
+        <!-- <div class="txt-rede-sociais-pagina-obrigado">
+            <h2></h2>
+        </div> -->
+        <div class="btn-social-pagina-obrigado">
+            <a href="https://github.com/codificamidia" target="_blank"><button><i class="bi bi-github"></i></button></a>
+            <a href="https://www.instagram.com/codificamidia/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+        </div><!--btn-social-->
+    </section><!--redes-sociais-pagina-obrigado-->
+
+
+</main>
+
+</body>
+</html>
